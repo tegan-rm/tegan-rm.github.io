@@ -106,9 +106,6 @@ body{
   max-width: 40%;
   max-height: 40%;
   border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -o-border-radius: 50%;
   z-index:1;
 }
 
