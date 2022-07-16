@@ -1,3 +1,4 @@
+/* Main body style */
 body{
     background-color: white;
     margin: 0;
@@ -6,11 +7,7 @@ body{
 
 
 
-    
-
-
-
-
+/* Navigation Bar */
 .TeganRM{
     font-family: 'Anek Latin';
     color:#73737e;
@@ -19,7 +16,6 @@ body{
     padding-right: 35%;
     font-weight: 100;
   }
-
 
 .Navigation {
     background-color: white;
@@ -43,12 +39,10 @@ body{
     text-decoration: none;
     font-size: 60%;
     margin-right:30px;
-
   }
   
    .Navigation a:hover {
     color: black;
-    
   }
   
   .Navigation a.active {
@@ -69,40 +63,23 @@ body{
   }
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+/* Content */
 .h2{
   font-family: 'Anek Latin';
-  padding-left: 5%;
+  padding-left: 10%;
   color:#73737e;
   font-size: 300%;
   font-weight: 400;
 }
 
-
 .p1{
     font-family: 'Anek Latin';
-    padding-left: 5%;
+    padding-left: 10%;
     font-size: 150%;
     font-weight: 400;
     padding-right: 5%;
-
-    
 }
+
 
 .content{
   display: flex;
@@ -112,122 +89,36 @@ body{
     flex-grow: 0;
 }
 
-      .p2{
-        font-family: 'Anek Latin';
-        padding-right: 5%;
-        padding-left: 5%;
-      
-      }
-      .circle1{
-        float: right;
-        flex-basis: 100%
-        
-      }
+.p2{
+  font-family: 'Anek Latin';
+  padding-right: 5%;
+  padding-left: 10%;
+  float: left;
+  
 
-
-
-
-
-
-
-
-
-
-.slideLeft {
-  animation-name: slideLeft;
-  -webkit-animation-name: slideLeft;
-  animation-duration: 1s;
-  -webkit-animation-duration: 0.2s;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-timing-function: ease-in-out;
-  visibility: visible !important;
 }
-@keyframes slideLeft {
-  0% {
-      transform: translateX(150%);
-  }
-  50% {
-      ransform: translateX(-8%);
-  }
-  65% {
-      transform: translateX(4%);
-  }
-  80% {
-      transform: translateX(-4%);
-  }
-  95% {
-      transform: translateX(2%);
-  }
-  100% {
-      transform: translateX(0%);
-  }
+.ProfilePurple{
+  float: right;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  max-width: 40%;
+  max-height: 40%;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index:1;
 }
-@-webkit-keyframes slideLeft {
-  0% {
-      -webkit-transform: translateX(150%);
-  }
-  50% {
-      -webkit-transform: translateX(-8%);
-  }
-  65% {
-      -webkit-transform: translateX(4%);
-  }
-  80% {
-      -webkit-transform: translateX(-4%);
-  }
-  95% {
-      -webkit-transform: translateX(2%);
-  }
-  100% {
-      -webkit-transform: translateX(0%);
-  }
-}
-.slideRight {
-  animation-name: slideRight;
-  -webkit-animation-name: slideRight;
-  animation-duration: 0.3s;
-  -webkit-animation-duration: 0.3s;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-timing-function: ease-in-out;
-  visibility: visible !important;
-}
-@keyframes slideRight {
-  0% {
-      transform: translateX(-150%);
-  }
-  50% {
-      transform: translateX(8%);
-  }
-  65% {
-      transform: translateX(-4%);
-  }
-  80% {
-      transform: translateX(4%);
-  }
-  95% {
-      transform: translateX(-2%);
-  }
-  100% {
-      transform: translateX(0%);
-  }
-}
-@-webkit-keyframes slideRight {
-  0% {
-      -webkit-transform: translateX(-150%);
-  }
-  50% {
-      -webkit-transform: translateX(8%);
-  }
-  65% {
-      -webkit-transform: translateX(-4%);
-  }
-  80% {
-      -webkit-transform: translateX(4%);
-  }
-  95% {
-      -webkit-transform: translateX(-2%);
-  }
-  100% {
-      -webkit-transform: translateX(0%);
-  }
+
+
+.yellowCircle {
+  position: absolute;
+  float: left;
+  max-width: 70%;
+  max-height: 70%;
+  top: 70%;
+  right: 30%; 
+  z-index:0;
 }
