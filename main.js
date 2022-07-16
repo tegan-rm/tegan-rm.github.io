@@ -8,3 +8,9 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+function isScrolledIntoView(elem) {
+  var docViewTop = $(window).scrollTop();
+  var docViewBottom = docViewTop + $(window).height();
+  var elemTop = $(elem).offset().top;
+  return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
+}
