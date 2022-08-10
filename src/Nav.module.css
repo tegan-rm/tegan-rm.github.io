@@ -45,6 +45,10 @@
     text-decoration: none;
     color: #73737e;
     justify-content: space-evenly;
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
 }
 
 .link a:hover {
@@ -55,4 +59,31 @@
 .link a.active {
     text-decoration: none;
     color: #1a1b1f;    
+  }
+
+  
+  .link .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
   }
