@@ -2,7 +2,7 @@ import React from "react";
 import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Swal from "sweetalert2";
-import "./contact.css";
+import "./CSSFiles/ContactCSS.css";
 
 const SERVICE_ID = "service_as6021m";
 const TEMPLATE_ID = "template_008nusk";

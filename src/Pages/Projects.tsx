@@ -1,4 +1,5 @@
 import React from "react";
+import "./CSSFiles/HomeCSS.css";
 
 function Projects() {
     return (
