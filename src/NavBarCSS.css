@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 2px 4px 0 rgba(119, 119, 119, 0.2);
+}
+
+.logoImage{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.logoText {
+  font-family: 'Lilita One', sans-serif;
+  color:#73737e;
+  font-size: 30px;
+  margin: 35px 0px 0px 30px;
+  float: left;
+}
+
+.link a:hover {
+  text-decoration: none;
+  color:black;  
+}
+
+@media only screen and (min-width: 1100px) {
+  .linksContainer {  
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    float: right;
+    margin: 40px 10px 0px 0px;
+  }
+
+  .link a {
+    font-size: 18px;
+    font-family: 'Arvo', sans-serif;
+    text-decoration: none;
+    color: #73737e;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .linksContainer {   
+    margin: 10px 0px 0px 0px;
+  }
+
+  .link a {
+    font-size: 18px;
+    font-family: 'Arvo', sans-serif;
+    text-decoration: none;
+    color: #73737e;
+    margin: 0px 0px 0px 20px;
+    }
+    .navbarText{
+      display: flex;
+      justify-content: space-evenly;
+    }
+}
