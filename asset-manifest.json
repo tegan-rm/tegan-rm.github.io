@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.506f2699.css",
-    "main.js": "/static/js/main.6e4184fd.js",
-    "static/media/TRMLogo.png": "/static/media/TRMLogo.278de8d938877b76e98d.png",
+    "main.css": "/static/css/main.c90051b8.css",
+    "main.js": "/static/js/main.ee87c0a3.js",
+    "static/media/Logo.png": "/static/media/Logo.00e74a84602989bfd7bc.png",
+    "static/media/Sunflower.png": "/static/media/Sunflower.db7a9a22832c8f933248.png",
     "index.html": "/index.html",
-    "main.506f2699.css.map": "/static/css/main.506f2699.css.map",
-    "main.6e4184fd.js.map": "/static/js/main.6e4184fd.js.map"
+    "main.c90051b8.css.map": "/static/css/main.c90051b8.css.map",
+    "main.ee87c0a3.js.map": "/static/js/main.ee87c0a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.506f2699.css",
-    "static/js/main.6e4184fd.js"
+    "static/css/main.c90051b8.css",
+    "static/js/main.ee87c0a3.js"
   ]
 }
