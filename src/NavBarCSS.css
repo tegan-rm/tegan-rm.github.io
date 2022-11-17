@@ -67,6 +67,7 @@
     margin: 35px 0px 0px 30px;
   }
   .link a {
+    display: none;
     font-size: 10px
   }
 }
