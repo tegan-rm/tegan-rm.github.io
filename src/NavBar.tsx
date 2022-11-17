@@ -11,6 +11,7 @@ function NavBar(){
                 <div className='logoText'>
                     <span>Tegan Roberts-Morgan</span>
                 </div>
+                <button className="hamburger">Hamburger </button>
                 <nav className='linksContainer'>
                     <div className='link'>
                         <Link to={"/"}>Home</Link> 
